@@ -5,8 +5,10 @@ const CartWidget = ({cantCarrito}) => {
         // Fragment, es una etiqueta vacia (<>) que no genera un elemento HTML
         // se usa porque react debe retornar un solo elemento
         <>
-            <button className='btn btn-dark'>Carrito</button>
-            <p>{cantCarrito}</p>
+            <div className='cant-container'>
+                <p className='cantidad-carro'>{cantCarrito}</p>
+                <button className='btn btn-dark btn-carrito'>Carrito</button>
+            </div>
         </>
     );
 }
