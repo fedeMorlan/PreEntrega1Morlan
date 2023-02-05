@@ -1,0 +1,97 @@
+[{
+    "nombre":"Epiphone SG", 
+    "descripcion":"Guitarra eléctrica Epiphone Modern SG Classic Worn P-90s de caoba cherry desgastado con diapasón de laurel indio",
+    "precio":265254,
+    "img":"SG.png",
+    "id":1,
+    "idCategoria": "guitarras"
+},
+{
+    "nombre":"Fender AV", 
+    "descripcion":"Guitarra eléctrica Fender American Vintage '56 Stratocaster de aliso/fresno black laca con diapasón de arce",
+    "precio":1620586,
+    "img":"fenderAV.png",
+    "id":2,
+    "idCategoria": "guitarras"
+},
+{
+    "nombre":"Amplificador Anderson",
+    "descripcion":"Amplificador Para Guitarra Anderson G-10 And 10 W 5 , Dist",
+    "precio":21979,
+    "img":"anderson.png",
+    "id":3,
+    "idCategoria":"amplificadores"
+},
+{
+    "nombre":"Orange Crush Mini",
+    "descripcion":"AMPLIFICADOR ORANGE CRUSH MINI TRANSISTOR PARA GUITARRA DE 3W COLOR NARANJA 250V",
+    "precio":33600,
+    "img":"orange.png",
+    "id":4,
+    "idCategoria":"amplificadores"
+},
+{
+    "nombre":"Fender Frontman",
+    "descripcion":"Amplificador De Guitarra Eléctrica Fender Frontman 10 Watts",
+    "precio":65633,
+    "img":"fender.png",
+    "id":5,
+    "idCategoria":"amplificadores"
+},
+{
+    "nombre":"Bajo Aston Reed",
+    "descripcion":"Bajo Eléctrico Aston Reed Ebs150-20 Con Funda Y Cable",
+    "precio":62777,
+    "img":"aston reed.png",
+    "id":6,
+    "idCategoria":"bajos"
+},
+{
+    "nombre":"Bajo Parquer Jazz",
+    "descripcion":"Bajo Electrico Parquer Jazz Bass Rojo Con Funda",
+    "precio":75568,
+    "img":"parquer jazz.png",
+    "id":7,
+    "idCategoria":"bajos"
+},
+{
+    "nombre":"Yamaha Trbx174",
+    "descripcion":"Bajo Yamaha Trbx174 Dbm Dark Blue Metallic Con Funda",
+    "precio":167078,
+    "img":"yamaha bass.png",
+    "id":8,
+    "idCategoria":"bajos"
+},
+{
+    "nombre":"Korg",
+    "descripcion":"Teclado Piano Electrico Korg B1 88 Teclas Con Peso + Envio",
+    "precio":298858,
+    "img":"korg.png",
+    "id":8,
+    "idCategoria":"teclados"
+},
+{
+    "nombre":"Casio",
+    "descripcion":"Teclado musical Casio CTK-3500 61 teclas negro",
+    "precio":72016,
+    "img":"casio.png",
+    "id":9,
+    "idCategoria":"teclados"
+},
+{
+    "nombre":"Campana",
+    "descripcion":"Cuerdas Guitarra Criolla Campana Encordado Nylon Plata",
+    "precio":1890,
+    "img":"campana.png",
+    "id":10,
+    "idCategoria":"cuerdas"
+},
+{
+    "nombre":"Daddario",
+    "descripcion":"Encordado Para Guitarra Electrica Daddario 010 Exl-110",
+    "precio":4032,
+    "img":"daddario.png",
+    "id":11,
+    "idCategoria":"cuerdas"
+}
+]

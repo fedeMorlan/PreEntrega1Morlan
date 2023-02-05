@@ -24,3 +24,6 @@ yarn-error.log*
 
 # custom
 src/testSnippet.jsx
+aprendiendohooks.jsx
+# componente de ejemplo para ver promesas
+Dolar
