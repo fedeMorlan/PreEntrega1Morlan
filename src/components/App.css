@@ -30,6 +30,7 @@ body {
   margin: 4px;
   align-items: center;
   justify-content: center;
+  display: inline-flex;
 }
 
 .cardProducto {
@@ -48,4 +49,26 @@ body {
 .cardImg {
   margin-top: 7px;
   width: 100%;
+}
+
+
+.agregarCarrito {
+  background-color: rgb(221, 217, 217);
+  margin: 5px;
+}
+
+.agregarCarrito:hover {
+  transition: all 0.2 ease-in-out;
+  background-color: #200055;
+  color: white;
+}
+
+.contador {
+  margin: 3px;
+  vertical-align: middle;
+}
+
+.card {
+  display: inline-block;
+  /* width: 100%; */
 }

@@ -15,7 +15,7 @@ const ItemListContainer = () => {
             fetch('../json/productos.json')
             .then(response => response.json())
             .then(produ => {
-                // uso parceInt porque en el json esta como int, pero se requiere un string
+                // uso parseInt porque en el json esta como int, pero se requiere un string
                 const products = produ.filter(prod => prod.idCategoria === idCategoria)
                 // tengo que llamar exactamente igual al parametro que como esta en el componente o da error?
                 const productsList = ItemList({products})

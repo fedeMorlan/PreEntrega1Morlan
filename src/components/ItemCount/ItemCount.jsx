@@ -14,9 +14,9 @@ const ItemCount = ({valInicial, stock}) => {
     return (
         <>
             {/* inline event porque no uso propiedades ni metodos de DOM */}
-            <button className='btn btn-dark' onClick={sumar}>+</button> 
+            <button className='btn btn-dark contador' onClick={sumar}>+</button> 
             {contador}
-            <button className='btn btn-dark' onClick={restar}>-</button>
+            <button className='btn btn-dark contador' onClick={restar}>-</button>
         </>
     );
 }
