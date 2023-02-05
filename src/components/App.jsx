@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <h2 className='bienvenida text-center'>
-          Bienvenid@ a Distor Knob!
+          Distor Knob!
         </h2>
         <p className='bienvenida-2 text-center'>
             Tu tienda digital musical
