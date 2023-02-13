@@ -9,9 +9,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contacto from './Contacto/Contacto';
 
 // estilo de toastify para dar un msj
-import 'react-toastify/dist/ReactToastify.css';
+// import 'react-toastify/dist/ReactToastify.css';
 // se trata como un componente, lo puedo incluir donde yo quiera, no dentro de Routes
-import { ToastContainer } from 'react-toastify';
+// import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -29,9 +29,9 @@ function App() {
           {/* este path va a ir cambiando, para ello se ponen los :, significa que va a cambiar */}
           <Route path='/item/:id' element={<ItemDetailContainer/>}/>
           <Route path='/category/:idCategoria' element={<ItemListContainer/>}/>
-          <Route path='/contacto' element={<Contacto/>}/>
+          {/* <Route path='/contacto' element={<Contacto/>}/> */}
         </Routes>
-        <ToastContainer/>
+        {/* <ToastContainer/> */}
       </BrowserRouter>
     </>
   );
