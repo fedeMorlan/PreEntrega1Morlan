@@ -19,23 +19,20 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 // Firebase
 import { cargarBDD, updateProducto, deleteProducto } from '../firebase/firebase';
+import Welcome from './Welcome/Welcome';
 
 function App() {
   // esta linea la ejecutamos una sola vez y luego comentamos, sino se cargaria la BDD cada vez que hacemos start
   // si tenemos en index.js en React.StrictMode hace que se ejecute 2 veces. Para ejecutar esto comentamos el strict mode
   // cargarBDD()
+
   return (
     <>
       <DarkModeProvider>
         <BrowserRouter>
           <CarritoProvider> 
             <Navbar/>
-            <h2 className='bienvenida text-center'>
-              Distor Knob!
-            </h2>
-            <p className='bienvenida-2 text-center'>
-                Tu tienda digital musical
-            </p>
+            <Welcome/>
             <Routes>
               <Route path='/' element={<ItemListContainer/>}/>
               {/* este path va a ir cambiando, para ello se ponen los :, significa que va a cambiar */}

@@ -16,12 +16,12 @@ const ItemDetail = ({item}) => {
     }
 
     return (
-        <div className='row g-0'>
-            <div className="col-md-4">
-                <img src={item.img} className="img-fluid rounded" alt={`Imagen de ${item.nombre}`} />            
+        <div className={`row g-0`}>
+            <div className={`col-md-4 ${darkMode ? 'text-white bg-dark' : ''}`}>
+                <img src={item.img} className={`img-fluid rounded`} alt={`Imagen de ${item.nombre}`} />            
             </div>
-            <div className="col-md-8">
-                <div className={`card-body`}>
+            <div className={`col-md-8 ${darkMode ? 'text-white bg-dark' : ''}`}>
+                <div className={`card-body `}>
                     <h5 className='card-title'>{item.nombre}</h5>
                     <p className='card-text'>${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
                     <p className='card-text'>{item.descripcion}</p>

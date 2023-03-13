@@ -76,8 +76,15 @@ body {
 }
 
 .contador {
-  margin: 3px;
+  margin: 5px;
+  border-radius: 20%;
+  padding: 14px;
   vertical-align: middle;
+}
+
+.contador-txt {
+  font-size: 1.9rem;
+  font-weight: bold;
 }
 
 .card {
@@ -89,6 +96,7 @@ body {
   background-color: black;
   color: gainsboro;
 }
+
 
 .cartContainer {
   margin-top: 3%;

@@ -3,8 +3,10 @@
 import React from 'react';
 import { useState } from 'react';
 import {toast} from 'react-toastify'
+import { useDarkModeContext } from '../../context/DarkModeContext';
 
 const ItemCount = ({valInicial, stock, onAdd}) => {
+    const {darkMode} = useDarkModeContext()
     // como es constante, modificamos el mismo usando una funcion
     const [contador, setContador] = useState(valInicial)
             //VAR       modificar var       estado inicial
@@ -21,10 +23,12 @@ const ItemCount = ({valInicial, stock, onAdd}) => {
     return (
         <>
             {/* inline event porque no uso propiedades ni metodos de DOM */}
-            <button className='btn btn-dark contador' onClick={sumar}>+</button> 
-            {contador}
-            <button className='btn btn-dark contador' onClick={restar}>-</button>
-            <button className='btn btn-secondary agregarCarrito' onClick={() => agregarCarrito()}>Agregar a Carrito</button>
+            <div className='contador-txt'>
+                <button className={`btn contador ${darkMode ? 'btn-light' : 'btn-dark'}`} onClick={sumar}>+</button> 
+                {contador}
+                <button className={`btn contador ${darkMode ? 'btn-light' : 'btn-dark'}`} onClick={restar}>-</button>
+                <button className='btn btn-secondary agregarCarrito' onClick={() => agregarCarrito()}>Agregar a Carrito</button>
+            </div>
         </>
     );
 }
