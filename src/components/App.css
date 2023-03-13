@@ -46,6 +46,18 @@ body {
   text-align: center;
 }
 
+.cardBodyDark {
+  background-color: hsl(0, 0%, 33%);
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.bodyItemDetailDark {
+  background-color: hsl(0, 0%, 33%);
+  color: white;
+  
+}
+
 .cardImg {
   margin-top: 7px;
   width: 100%;
@@ -71,4 +83,22 @@ body {
 .card {
   display: inline-block;
   /* width: 100%; */
+}
+
+.darkMode {
+  background-color: black;
+  color: gainsboro;
+}
+
+.cartContainer {
+  margin-top: 3%;
+  margin-left: 26,5%;
+}
+
+.divButtons button {
+  margin: 4px;
+}
+
+.cardCart{
+  max-width: 640px;
 }

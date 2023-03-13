@@ -2,96 +2,108 @@
     "nombre":"Epiphone SG", 
     "descripcion":"Guitarra eléctrica Epiphone Modern SG Classic Worn P-90s de caoba cherry desgastado con diapasón de laurel indio",
     "precio":265254,
-    "img":"SG.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/SG.png?alt=media&token=fe43265d-3713-4d3d-a390-ae5e8ac094c5",
     "id":1,
-    "idCategoria": "guitarras"
+    "idCategoria": "guitarras",
+    "stock":20
 },
 {
     "nombre":"Fender AV", 
     "descripcion":"Guitarra eléctrica Fender American Vintage '56 Stratocaster de aliso/fresno black laca con diapasón de arce",
     "precio":1620586,
-    "img":"fenderAV.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/fenderAV.png?alt=media&token=f1c8b458-c55e-4c0c-8092-618329d4f3d7",
     "id":2,
-    "idCategoria": "guitarras"
+    "idCategoria": "guitarras",
+    "stock":20
 },
 {
     "nombre":"Amplificador Anderson",
     "descripcion":"Amplificador Para Guitarra Anderson G-10 And 10 W 5 , Dist",
     "precio":21979,
-    "img":"anderson.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/anderson.png?alt=media&token=fd48c2c4-a7fd-41e1-9dc8-ce69b81f7dd7",
     "id":3,
-    "idCategoria":"amplificadores"
+    "idCategoria":"amplificadores",
+    "stock":20
 },
 {
     "nombre":"Orange Crush Mini",
     "descripcion":"AMPLIFICADOR ORANGE CRUSH MINI TRANSISTOR PARA GUITARRA DE 3W COLOR NARANJA 250V",
     "precio":33600,
-    "img":"orange.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/orange.png?alt=media&token=6b18f7f4-f3fb-4cfa-8876-14ef21932722",
     "id":4,
-    "idCategoria":"amplificadores"
+    "idCategoria":"amplificadores",
+    "stock":20
 },
 {
     "nombre":"Fender Frontman",
     "descripcion":"Amplificador De Guitarra Eléctrica Fender Frontman 10 Watts",
     "precio":65633,
-    "img":"fender.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/fender.png?alt=media&token=8cb6b892-a75e-46d4-907a-70b757d6d75d",
     "id":5,
-    "idCategoria":"amplificadores"
+    "idCategoria":"amplificadores",
+    "stock":20
 },
 {
     "nombre":"Bajo Aston Reed",
     "descripcion":"Bajo Eléctrico Aston Reed Ebs150-20 Con Funda Y Cable",
     "precio":62777,
-    "img":"aston reed.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/aston%20reed.png?alt=media&token=7d263387-19d8-4e70-9dc8-1f5b369de34e",
     "id":6,
-    "idCategoria":"bajos"
+    "idCategoria":"bajos",
+    "stock":20
 },
 {
     "nombre":"Bajo Parquer Jazz",
     "descripcion":"Bajo Electrico Parquer Jazz Bass Rojo Con Funda",
     "precio":75568,
-    "img":"parquer jazz.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/parquer%20jazz.png?alt=media&token=92046fda-b4c4-43c4-9036-425b9670d9a3",
     "id":7,
-    "idCategoria":"bajos"
+    "idCategoria":"bajos",
+    "stock":20
 },
 {
     "nombre":"Yamaha Trbx174",
     "descripcion":"Bajo Yamaha Trbx174 Dbm Dark Blue Metallic Con Funda",
     "precio":167078,
-    "img":"yamaha bass.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/yamaha%20bass.png?alt=media&token=b003f4fb-2e69-400a-9761-c3e31dc48ec5",
     "id":8,
-    "idCategoria":"bajos"
+    "idCategoria":"bajos",
+    "stock":20
 },
 {
     "nombre":"Korg",
     "descripcion":"Teclado Piano Electrico Korg B1 88 Teclas Con Peso + Envio",
     "precio":298858,
-    "img":"korg.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/korg.png?alt=media&token=36458be3-6426-48c0-90ad-b80442073cb6",
     "id":9,
-    "idCategoria":"teclados"
+    "idCategoria":"teclados",
+    "stock":20
 },
 {
     "nombre":"Casio",
     "descripcion":"Teclado musical Casio CTK-3500 61 teclas negro",
     "precio":72016,
-    "img":"casio.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/casio.png?alt=media&token=f8892040-0eca-4f53-b0c0-84ce8e632407",
     "id":10,
-    "idCategoria":"teclados"
+    "idCategoria":"teclados",
+    "stock":20
 },
 {
     "nombre":"Campana",
     "descripcion":"Cuerdas Guitarra Criolla Campana Encordado Nylon Plata",
     "precio":1890,
-    "img":"campana.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/campana.png?alt=media&token=3bb831f8-a08d-4c7d-a9b4-6ec24129ed8b",
     "id":11,
-    "idCategoria":"cuerdas"
+    "idCategoria":"cuerdas",
+    "stock":20
 },
 {
     "nombre":"Daddario",
     "descripcion":"Encordado Para Guitarra Electrica Daddario 010 Exl-110",
     "precio":4032,
-    "img":"daddario.png",
+    "img":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-563eb.appspot.com/o/daddario.png?alt=media&token=4fb0801c-2804-40ba-9c69-9d14783f94a5",
     "id":12,
-    "idCategoria":"cuerdas"
+    "idCategoria":"cuerdas",
+    "stock":20
 }
 ]

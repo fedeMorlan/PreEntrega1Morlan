@@ -25,5 +25,6 @@ yarn-error.log*
 # custom
 src/testSnippet.jsx
 aprendiendohooks.jsx
+./public/json/productos.json
 # componente de ejemplo para ver promesas
 Dolar

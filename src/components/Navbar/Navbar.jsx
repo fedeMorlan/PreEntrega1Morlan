@@ -3,6 +3,7 @@ import CartWidget from '../CartWidget/CartWidget';
 import Secciones from '../Secciones/Secciones';
 import Categorias from './Categorias/Categorias';
 import { Link } from 'react-router-dom';
+import BotonDarkMode from './BotonDarkMode/BotonDarkMode';
 
 const Navbar = () => {
     return (
@@ -20,7 +21,8 @@ const Navbar = () => {
                         <Categorias/>                              
                     </ul>
                     {/* el carrito pide parametro cantidad de items en el carro */}
-                    <CartWidget cantCarrito={5}/>            
+                    <CartWidget/>
+                    <BotonDarkMode/>            
                 </div>                                
             </div>
         </nav>

@@ -1,11 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+//Context
+import { useDarkModeContext } from '../../context/DarkModeContext';
+
 const Item = ({item}) => {
+    const {darkMode} = useDarkModeContext()
+
     return (
-        <div className="card cardProducto" style={{width: '18rem'}}>
-            <img src={`../img/${item.img}`} className="card-img-top cardImg" alt={`Imagen de ${item.nombre}`} />
-            <div className="card-body cardBody">
+        <div className={`card mb-3 cardProducto ${darkMode ? 'text-white bg-dark' : ''}`} style={{width: '18rem'}}>
+            <img src={item.img} className="card-img-top cardImg" alt={`Imagen de ${item.nombre}`} />
+            <div className={`card-body ${darkMode ? 'cardBodyDark' : 'cardBody'}`}>
                 <h5 className="card-title">{item.nombre}</h5>
                 <p className="card-text">${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
                 {/* como cada item conoce su id, puede generarse dinamicamente el routing*/}

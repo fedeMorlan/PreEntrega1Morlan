@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Categorias = () => {
+// usamos memo ya que sabemos que los valores seran los mismos casi siempre
+// se suele usar memo en las li
+// se ejecuta al renderizar por primera vez, luego consulta de memoria
+const Categorias = React.memo(() => {
     return (
             <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -20,6 +23,5 @@ const Categorias = () => {
                 </ul>
             </li> 
     );
-}
-
+})
 export default Categorias;
