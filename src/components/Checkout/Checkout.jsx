@@ -28,26 +28,27 @@ const Checkout = () => {
             toast.error("El email de verificacion no coincide con el email ingresado arriba")
             }
 
-        // copio el carrito, aunque deberia enviar solo el id de cada item para no repetir info
-        const aux =[...carrito]
+        else{ 
+            // copio el carrito, aunque deberia enviar solo el id de cada item para no repetir info
+            const aux =[...carrito]
 
-        // para descontar el stock tengo que afectar la base de datos
-        // para hacer: todavia puedo agregar al carro mas de lo que hay disponible (de a 5 por ejemplo)
-        aux.forEach(prodCarrito => {
-            getProducto(prodCarrito.id).then(prodBDD => {
-                prodBDD.stock -= prodCarrito.cant
-                updateProducto(prodCarrito.id, prodBDD)
+            // para descontar el stock tengo que afectar la base de datos
+            // para hacer: todavia puedo agregar al carro mas de lo que hay disponible (de a 5 por ejemplo)
+            aux.forEach(prodCarrito => {
+                getProducto(prodCarrito.id).then(prodBDD => {
+                    prodBDD.stock -= prodCarrito.cant
+                    updateProducto(prodCarrito.id, prodBDD)
+                })
             })
-        })
 
-        createOrdenCompra(cliente, aux, totalPrice, new Date().toISOString()).then(ordenCompra => {
-            toast.success(`Gracias por comprar en Distor Knob!, tu orden de compra ${ordenCompra.id} por un total de ${new Intl.NumberFormat('de-DE').format(totalPrice())} se realizó correctamente`)
-            emptyCart()
-            e.target.reset()
-            navigate("/")
-            
-        })
-
+            createOrdenCompra(cliente, aux, totalPrice, new Date().toISOString()).then(ordenCompra => {
+                toast.success(`Gracias por comprar en Distor Knob!, tu orden de compra ${ordenCompra.id} por un total de ${new Intl.NumberFormat('de-DE').format(totalPrice())} se realizó correctamente`)
+                emptyCart()
+                e.target.reset()
+                navigate("/")
+                
+            })
+        }
     }
     return (
         <>
