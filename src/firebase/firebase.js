@@ -67,7 +67,7 @@ export const getProducto = async(id) => {
 }
 
 export const updateProducto = async(id, info) => {
-    await updateDoc(doc(db," productos", id), info)
+    await updateDoc(doc(db,"productos", id), info)
 }
 
 export const deleteProducto = async(id) => {
