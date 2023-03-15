@@ -41,7 +41,7 @@ const Checkout = () => {
                 })
             })
 
-            createOrdenCompra(cliente, aux, totalPrice, new Date().toISOString()).then(ordenCompra => {
+            createOrdenCompra(cliente, aux, totalPrice(), new Date().toISOString()).then(ordenCompra => {
                 toast.success(`Gracias por comprar en Distor Knob!, tu orden de compra ${ordenCompra.id} por un total de ${new Intl.NumberFormat('de-DE').format(totalPrice())} se realizó correctamente`)
                 emptyCart()
                 e.target.reset()
