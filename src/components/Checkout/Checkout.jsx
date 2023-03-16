@@ -29,7 +29,7 @@ const Checkout = () => {
             }
 
         else{ 
-            // copio el carrito, aunque deberia enviar solo el id de cada item para no repetir info
+            // copio el carrito aunque deberia enviar solo el id de cada item para no repetir info
             const aux =[...carrito]
 
             // para descontar el stock tengo que afectar la base de datos
